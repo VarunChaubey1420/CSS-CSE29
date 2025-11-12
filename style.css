@@ -1,0 +1,26 @@
+p{
+    color:red
+}
+.vc{
+    color:blue;
+}
+#vc1{
+    color:green;
+}
+p{
+    font-size:20px;
+}
+p{
+    text-align: center;
+}
+p{
+    font-family: comic sans ms;
+}
+div{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    align-content: center;
+    padding: 5px;
+}
