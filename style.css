@@ -1,4 +1,4 @@
-p{
+/* p{
     color:red
 }
 .vc{
@@ -13,14 +13,33 @@ p{
     text-align: center;
 }
 p{
-    font-family: 'Arial', sans-serif;
-}
-div{
+    font-family: comic sans;
+} */
+/* div{
     height: 100px;
     width: 200px;
     background-color: aqua;
     text-align: center;
     align-content: center;
-    margin-left: 42%;
+    margin: 10px 200px;
     padding: 5px;
+    border: 1px dashed black;
+} */
+
+div{
+    border:2px solid black;
+    width:800px;
+    height:400px;
+    margin:auto;
+    padding:10px;
+}
+.box-model{
+    height: 200px;
+    width: 600px;
+    background-color: yellow;
+    text-align: center;
+    align-content: center;
+    margin: 10px 50px;
+    padding: 5px;
+    border: 50px solid darkblue;
 }
