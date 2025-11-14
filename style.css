@@ -29,17 +29,19 @@ p{
 div{
     border:2px solid black;
     width:800px;
-    height:400px;
+    height:425px;
     margin:auto;
     padding:10px;
 }
 .box-model{
     height: 200px;
-    width: 600px;
+    width: 625px;
     background-color: yellow;
     text-align: center;
     align-content: center;
-    margin: 10px 50px;
     padding: 5px;
     border: 50px solid darkblue;
+    font-size:25px;
+    margin-top:50px;
+    margin-left: 50px;
 }
