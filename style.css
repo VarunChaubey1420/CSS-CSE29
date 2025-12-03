@@ -75,10 +75,10 @@ div{
 .box3{
     background-color: rgb(124, 151, 185);
 } */
-.container{
+/* .container{
     display: flex;
-    /* flex-direction: column-reverse; */
-    /* flex-wrap: wrap; */
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
     border:1px solid black;
     width: 1000px;
     height: 500px;
@@ -101,4 +101,42 @@ div{
     order:1;
     flex-grow: 3;
     align-self: flex-end;
+} */
+.container{
+    display: grid;
+    border:1px solid black;
+    width: 1000px;
+    height: 400px;
+    background-color: aqua;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 50px);
+    /* grid-template-areas: "header header header header""main main . sidebar"
+    "footer footer footer footer"; */
+    /* justify-items: center;
+    align-items: center; */
+    place-items: stretch;
+    justify-content: space-around;
+    align-content: space-between;
+
 }
+.item{
+    background-color: red;
+    border: 1px solid black;
+    /* height: 100px;
+    width: 100px; */
+    color:white;
+    text-align: center;
+    align-content: center;
+}
+/* .item1{
+    grid-area:header;
+}
+.item2{
+    grid-area:main;
+}
+.item3{
+    grid-area:sidebar;
+}
+.item4{
+    grid-area:footer;
+} */
