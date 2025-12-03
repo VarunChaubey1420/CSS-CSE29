@@ -51,7 +51,7 @@ p{
 div{
     display:inline;
 } */
-.container{
+/* .container{
     
     border:2px solid black;
     padding:20px;
@@ -74,4 +74,31 @@ div{
 }
 .box3{
     background-color: rgb(124, 151, 185);
+} */
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    border:1px solid black;
+    width: 1000px;
+    height: 500px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.item{
+    background-color: red;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    color:white;
+    text-align: center;
+    align-content: center;
+    flex-grow: 1;
+}
+.item2{
+    order:1;
+    flex-grow: 3;
+    align-self: flex-end;
 }
